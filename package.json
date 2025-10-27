@@ -1,0 +1,12 @@
+{
+  "name": "suno-discord-rpc",
+  "version": "1.0.0", 
+  "description": "Discord Rich Presence for Suno AI with cover art and real-time track info",
+  "scripts": {
+    "start": "cd server && node server.js",
+    "install-deps": "cd server && npm install"
+  },
+  "keywords": ["discord", "rpc", "suno", "music"],
+  "author": "e24x5",
+  "license": "MIT"
+}

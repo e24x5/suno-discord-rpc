@@ -1,0 +1,54 @@
+# Suno Discord RPC - Userscript Installation Guide
+
+## 📋 Prerequisites
+
+- **Tampermonkey** browser extension installed
+- **Node.js** server running (see main README)
+- **Discord** desktop app open
+
+## 🔧 Installation Steps
+
+### 1. Install Tampermonkey
+- **Chrome**: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+- **Firefox**: https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
+- **Edge**: https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendneeafp
+
+### 2. Install the Userscript
+**Method A: Automatic**
+1. Click this link: [suno-rpc.user.js](suno-rpc.user.js)
+2. Tampermonkey should open → Click "Install"
+
+**Method B: Manual**
+1. Open Tampermonkey dashboard
+2. Click "+ Create a new script"
+3. Delete existing code and paste content from `suno-rpc.user.js`
+4. Press Ctrl+S to save
+
+### 3. Enable the Script
+- Make sure the script is enabled (toggle should be ON)
+- Visit [Suno](https://suno.com)
+- Play any track
+
+## 🎯 Features
+
+- ✅ Real-time track information
+- ✅ Artist detection  
+- ✅ Cover art extraction
+- ✅ Progress tracking
+- ✅ Automatic updates every 2 seconds
+
+## ❓ Troubleshooting
+
+**Script not working?**
+- Check if Tampermonkey is enabled
+- Verify script is enabled for suno.com
+- Check browser console for errors (F12)
+
+**No rich presence in Discord?**
+- Make sure server is running
+- Check Discord desktop app is open
+- Verify Discord game activity is enabled
+
+## 🔄 Updates
+
+The script will auto-update through Tampermonkey when new versions are released.
